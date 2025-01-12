@@ -7,7 +7,7 @@
   --blue: #0033A0;
   --orange: #D64309;
 
-  --highlight-yellow: #ccff1566;
+  --highlight-yellow: #ccff1555;
   --highlight-blue: #55aaff33;
   --highlight-green: #00ff0044;
 }
@@ -129,6 +129,21 @@ tr.part-ii {
 
 tr.part-iii {
   background-color: var(--highlight-green);
+}
+
+blockquote {
+  margin-inline-start: 16px;
+  margin-block: 32px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-left: 4px solid grey;
+  border-radius: 8px;
+  background-color: #80808022;
+}
+
+blockquote > p:first-child {
+  margin-top: 0px;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
